@@ -8,8 +8,8 @@ const REFLECT_LOGO_BASE64 = readFileSync(resolve(__dirname, "assets/reflect/512x
   "base64",
 );
 
-const REFLECT_WIDTH = 128;
-const REFLECT_HEIGHT = 128;
+const REFLECT_WIDTH = 100;
+const REFLECT_HEIGHT = 100;
 const REFLECT_LOGO = (width: number, y: number) => {
   const x = (width - REFLECT_WIDTH) / 2;
   return `
@@ -66,9 +66,11 @@ export default defineConfig({
       composeAfter(compose, _, config) {
         compose
           .addSpan(20)
-          .addText("Special Sponsor", "sponsorkit-tier-title")
+          .addTitle("Special Sponsor")
           .addRaw(REFLECT_LOGO(config.width!, compose.height))
-          .addSpan(160);
+          .addSpan(110)
+          .addText("Reflect")
+          .addSpan(10);
       },
     },
   ],
