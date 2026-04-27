@@ -30,7 +30,7 @@ export default defineConfig({
   },
 
   // Rendering configs
-  width: 800,
+  width: 400,
   renderer: "tiers", // or 'circles'
   formats: ["json", "svg", "png", "webp"],
   tiers: [
