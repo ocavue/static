@@ -1,4 +1,6 @@
 .cache
+.cache.json
+.env
 .DS_Store
 .idea
 *.log

@@ -1,0 +1,13 @@
+{
+  "name": "@ocavue/static",
+  "type": "module",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "build": "sponsorkit"
+  },
+  "devDependencies": {
+    "sponsorkit": "^17.1.0"
+  }
+}
