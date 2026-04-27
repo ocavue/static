@@ -40,8 +40,14 @@ export default defineConfig({
       monthlyDollars: -1,
       preset: tierPresets.xs,
     },
+    // Default tier
+    {
+      title: "Backers",
+      preset: tierPresets.base,
+    },
     {
       title: "Sponsors",
+      monthlyDollars: 10,
       preset: tierPresets.medium,
     },
     {
