@@ -68,7 +68,7 @@ export default defineConfig({
           .addSpan(20)
           .addText("Special Sponsor", "sponsorkit-tier-title")
           .addRaw(REFLECT_LOGO(config.width!, compose.height))
-          .addSpan(150);
+          .addSpan(160);
       },
     },
   ],
