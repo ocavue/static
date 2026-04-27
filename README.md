@@ -1,3 +1,3 @@
-# static 
+# static
 
 Host static files here.
